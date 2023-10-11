@@ -1,0 +1,140 @@
+@media (max-width: 991px) {
+  .navbar-front__hamburger,
+  .navber-front__btn-close {
+    display: block;
+  }
+
+  .navbar-front__hamburger {
+    font-size: 27px;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 32px;
+    margin-left: auto;
+  }
+
+  .navbar-front__hamburger i {
+    color: #000;
+    line-height: 32px;
+  }
+
+  .navbar-front__nav-wrap {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    z-index: 99;
+    padding: 50px 30px;
+    background-color: #fff;
+    transition: right 750ms ease-in-out;
+    -webkit-transition: right 750ms ease-in-out;
+    -ms-transition: right 750ms ease-in-out;
+    -moz-transition: right 750ms ease-in-out;
+  }
+
+  .menubarshow {
+    right: 0;
+    transition: right 350ms ease-in-out;
+    -webkit-transition: right 350ms ease-in-out;
+    -ms-transition: right 350ms ease-in-out;
+    -moz-transition: right 350ms ease-in-out;
+
+  }
+
+  .navbar-front__nav {
+    flex-direction: column;
+  }
+
+  .navbar-front__nav-item {
+    flex: none;
+    display: block;
+    padding: 7px 0;
+  }
+
+  .navbar-front__nav-item a {
+    color: #000;
+  }
+
+  .navber-front__btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 27px;
+    height: 27px;
+    font-size: 27px;
+    transition: all 350ms ease;
+    cursor: pointer;
+  }
+
+  .navber-front__btn-close:hover {
+    color: #dc3545;
+  }
+
+  .navbar-front__nav-item--footer a {
+      color: #fff;
+  }
+}
+
+
+@media (max-width: 767px) {
+    .lottery-footer-logo {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .navbar-front__nav-item--footer {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .lottery-footer-nav {
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom-row {
+        flex-direction: column-reverse;
+    }
+
+    .lottery-footer-social {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .lottery-footer-copyright {
+        text-align: center;
+    }
+
+    .drop-ticket {
+        position: static;
+        margin-bottom: 15px;
+    }
+
+    .drop-ticket .entry-ticket-error {
+        position: static;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .navbar-front__logo {
+        width: 88px;
+    }
+}
+
+@media (max-width: 576px) {
+    .lottery-result {
+        padding: 0;
+    }
+
+    .lottery-result__content {
+        padding: 30px 15px;
+    }
+
+    .lottery-form-info {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

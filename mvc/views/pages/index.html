@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottery Frontend</title>
+
+    <!-- <link rel="stylesheet" href="./public/frontEnd/bootstrap/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="/public/frontEnd/assests/css/style.css"> -->
+    <link rel="stylesheet" href="../../public/frontEnd/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../../public/frontEnd/assests/css/style.css">
+    <link rel="stylesheet" href="../../public/assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+</head>
+
+<body>
+
+    <!-- Display result lottery and form join reward -->
+    <div class="lottery-main">
+        <header class="header-front">
+            <!--Navbar-->
+            <div class="lottery-wrap">
+                <nav class="navbar-front">
+                    <div class="navbar-front__logo-wrap col-lg-3">
+                        <a href="#" class="navbar-front__logo">
+                            <img src="../../public/assets/images/logo-lottery.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="navbar-front__collapse col-lg-9">
+                        <ul class="navbar-front__nav">
+                            <li class="navbar-front__nav-item"><a href="#">Menu item 1</a></li>
+                            <li class="navbar-front__nav-item"><a href="#">Menu item 2</a></li>
+                            <li class="navbar-front__nav-item"><a href="#">Menu item 3</a></li>
+                            <li class="navbar-front__nav-item"><a href="#">Menu item 4</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <!--/.Navbar-->
+        </header>
+
+        <!-- Banner -->
+        <div class="front-main">
+            <div class="front-banner">
+                <div class="lottery-wrap">
+                    <!-- breadcrumb -->
+                    <div class="lottery-wrap">
+                        <div class="lottery-breadcrumb-ctn">
+                            <ul class="lottery-breadcrumb">
+                                <li><a href="#">Home</a></li>
+                                <span class="breadcrumb-delimiter"><i class="far fa-chevron-double-right"></i></span>
+                                <li><a href="#">Category</a></li>
+                                <span class="breadcrumb-delimiter"><i class="far fa-chevron-double-right"></i></span>
+                                <li><a href="#">Post</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <a href="#" class="banner-image">
+                        <img src="../../public/assets/images/banner.jpg" alt="">
+                    </a>
+
+                    <div class="lottery-result">
+                        <div class="lottery-result__content">
+                            <h2>Lottery results for Store A1 on January 30, 2122</h2>
+                            <p style="text-align: center; color: #fff;">"Mã trúng thưởng"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="lottery-wrap">
+                <div class="lottery-form-info">
+                    <h2>Nhập thông tin dự thưởng</h2>
+                    <form action="post" class="row">
+                        <div class="field-item col-md-6">
+                            <input type="text" name="username" id="" required placeholder="Fullname">
+                        </div>
+                        <div class="field-item col-md-6">
+                            <input type="text" name="identity_card_number" id="" required placeholder="Indentity card">
+                        </div>
+                        <div class="field-item col-md-6">
+                            <input type="date" name="birthday" placeholder="dd-mm-yyyy" value="">
+                        </div>
+                        <div class="field-item col-md-6">
+                            <input type="text" name="address" id="" required placeholder="Address">
+                        </div>
+
+                        <div class="field-item col-md-6">
+                            <select name="gender" id="" required>
+                                <option disabled selected>Choose Genders</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                                <option value="3">Other genders</option>
+                            </select>
+                        </div>
+                        <div class="field-item col-md-6">
+                            <input type="text" name="lottery_code" id="" required placeholder="Lottery code">
+                        </div>
+                        <div class="field-item col-md-6">
+                            <input type="text" name="store_address" id="" required placeholder="Store address">
+                        </div>
+
+                        <div class="filed-lottery-btn"><button class="lottery-btn" type="submit">Gửi</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+
+            <div class="footer-ctn">
+                <div class="lottery-wrap">
+                    <div class="footer-top">
+                        <div class="row footer-top-row">
+                            <div class="col-md-6 col-12">
+                                <div class="lottery-footer-logo">
+                                    <img src="../../public/assets/images/logo-lottery.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <ul class="lottery-footer-nav">
+                                    <li class="navbar-front__nav-item"><a href="#">Menu item 1</a></li>
+                                    <li class="navbar-front__nav-item"><a href="#">Menu item 2</a></li>
+                                    <li class="navbar-front__nav-item"><a href="#">Menu item 3</a></li>
+                                    <li class="navbar-front__nav-item"><a href="#">Menu item 4</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom">
+                        <div class="row footer-bottom-row">
+                            <div class="col-md-6 col-12">
+                                <div class="lottery-footer-copyright">Copyright © 2020.All Rights Reserved By ...</div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <ul class="lottery-footer-social">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../../public/assets/vendor/jquery/jquery.min-3.6.js"></script>
+    <script src="../../public/assets/js/main.js"></script>
+
+</body>
+
+</html>
